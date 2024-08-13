@@ -9,10 +9,11 @@ import { accountsToTabs } from './utils';
 
 import MainComposerBase from '~components/MainComposer/components/MainComposerBase/MainComposerBase';
 import Preview from '~components/Preview/Preview';
-import scss from '~components/Tabber/Tabber.module.scss';
 
 import PostModes from './PostModes/PostModes';
 import Tabs from './Tabs/Tabs';
+
+import scss from './Tabber.module.scss';
 
 import { Tab, TabId, Tabs as TabsType } from './Tabber.types';
 
